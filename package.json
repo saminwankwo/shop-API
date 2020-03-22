@@ -1,0 +1,27 @@
+{
+  "name": "shop-api",
+  "version": "1.0.0",
+  "description": "A Node.js REST API (build a simple shop API)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saminwankwo/shop-API.git"
+  },
+  "keywords": [
+    "node",
+    "API",
+    "RESTFul"
+  ],
+  "author": "Nwankwo Samuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saminwankwo/shop-API/issues"
+  },
+  "homepage": "https://github.com/saminwankwo/shop-API#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
