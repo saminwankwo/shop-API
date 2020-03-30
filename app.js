@@ -8,7 +8,8 @@ const productRoutes = require("./api/routes/products");
 const orderRoutes = require("./api/routes/orders");
 const userRoutes = require('./api/routes/user');
 
-mongoose.connect("mongodb+srv://rest-shop:<password>@node-rest-shopapi-qbyjt.mongodb.net/test?retryWrites=true&w=majority",
+mongoose.connect("mongodb+srv://rest-shop:"
+    + process.env.MONGO_ATLAS_PW + "@node-rest - shopapi - qbyjt.mongodb.net / test ? retryWrites = true & w=majority",
   {
     useMongoClient: true
   }
@@ -54,4 +55,3 @@ app.use((error, req, res, next) => {
 });
 
 module.exports = app;
-rest-shop
