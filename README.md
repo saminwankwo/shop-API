@@ -21,9 +21,19 @@ What things you need to install the software and how to install them\
 # To get started 
 `git clone`
 
-then 
+them run <br> 
+`npm install` <br>
 
-Make sure to also add your Mongo Atlas Admin Username to a nodemon.json file (which you have to create).
+There after run <br>
+`npm init`
+
+# Running the tests
+After starting your node server you can test using <br>To check orders, remove and add
+`http://localhost:3000/orders/`
+<br> To add and remove and view new products
+`http://localhost:3000/products/`
+
+Make sure to also add your Mongo Atlas Admin Username to  nodemon.json file.
 
 ```
 {
